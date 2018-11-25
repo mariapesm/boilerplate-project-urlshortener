@@ -4,14 +4,23 @@
 
    <head>
       <title>URL Shortener</title>
-      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+     <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATP//D0v//05L//+VS///3Ev//9tL//+US///TUv//w4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABM//9lTP//wEv///hK////Sv///0r///9Z////Uv///0z///9K///4S///v0z//2QAAAAAAAAAAAAAAAAAAAAATP//10v///9K////Sv///0n///9J////Yf///2H///9h////Xf///1P///9L///XAAAAAAAAAAAAAAAAAAAAAEv//+5K////Qf///y210f8aa3v/KKK7/2v///9w3fn/aP///2L///9b////Sv//7gAAAAAAAAAAAAAAAEr//wdK///+AAAA/wAAAP8AAAD/AAAA/xVZZ/9wzeT/gUU4/4FGOf+BTkT/Z/3//0n///5J//8HAAAAAAAAAABJ//8cRv///wAAAP8AAAD/Dj9J/wAAAP8UVWP/Yf///2n7//90prT/gUM3/23Z9P9I////SP//HAAAAAAAAAAASP//M0D9//8AAAD/ByUr/y671/8AAAD/E1Je/13///9d////Zf///4BAMv9wv9T/R////0f//zMAAAAAAAAAAEf//0pG////Rf///0X///8tt9P/AAAA/xJOWv9f////Yf///2b///9+Oy3/cqOx/0j///9G//9KAAAAAAAAAABG//9hRf///0X///9E////LLLO/wAAAP8QSVX/bL3S/301Jv99Nif/fTco/3SGjP9J////Rf//YAAAAAAAAAAARf//d0T///9D////Q////yuuyf8AAAD/D0VQ/2u5zf98MSH/c3p+/2+grv9rxNv/Sv///0T//3cAAAAAAAAAAEP//45D////Qv///0L///8qqcP/AAAA/w5ASv9qtMj/eywc/2Tm//9Z////Wf///0v///9C//+OAAAAAAAAAABC//+lQv///zHF4/8IKC7/AAIC/wAAAP8NPEX/aa/C/3knFv9wdXj/bJyp/2yhsP9M////Qf//pQAAAAAAAAAAQf//u0D+//8ee47/AAAA/wAAAP8AAAD/DDdA/2irvf94IxH/eCMR/3gkEv95JhT/T////0D+/7sAAAAAAAAAAED6/9I/+f//ONz+/y20z/8ss87/LLLN/zTR8f9Y////W////1v///9b////XP///07///8++P/SAAAAAD/3/wA+9f/pPvP//z3y//898f//PPD//zzv//887///UP///1D///9Q////UP///1D///9L////PfP/6T71/wA+8f8HPfD/+T3u//887f//POz//zvr//876v//O+r//zvq//876v//O+r//zvr//877P//O+z//zzu//k87/8H8A8AAMADAADAAwAAwAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAAAAAAAAAAAAAA==" rel="icon" type="image/x-icon">
+            <link rel ="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" >
+
+     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
       <link href="/public/style.css" rel="stylesheet" type="text/css">
    </head>
 
    <body>
       <div class="container">
-        <h2>API Project: URL Shortener Microservice</h2>
+        <h2>
+        
+         <span style="color: Dodgerblue;">
+  <i class="fab fa-js-square"></i>
+  </span>
+          
+   &nbsp       
+        API Project: URL Shortener Microservice</h2>
         <h3>User Story: </h3>
         <ol>
           <li>I can POST a URL to <code>[project_url]/api/shorturl/new</code> and I will receive a shortened URL in the JSON response.<br>Example : <code>{"original_url":"www.google.com","short_url":1}</code></li>
@@ -22,24 +31,24 @@
         
         <h3>Short URL Creation </h3>
         <p>
-          example: <code>POST [project_url]/api/shorturl/new</code> - <code>https://www.google.com</code>
+          example: <code>POST [project_url]/api/shorturl/new</code> - <code>http://php.net/</code>
         </p>
-        <form action="api/shorturl/new" method="POST">
+        <form action="swamp-fennel.glitch.me/new" method="POST">
           <label for="url_input">URL to be shortened</label>
-          <input id="url_input" type="text" name="url" value="https://www.freecodecamp.com">
+          <input id="url_input" type="text" name="url" value="http://php.net/">
           <input type="submit" value="POST URL">
         </form>
         <h3>Example Usage:</h3>
-        <a href="https://thread-paper.hyperdev.space/api/shorturl/3">
-          [this_project_url]/api/shorturl/3
-        </a>
+        <p href="https://swamp-fennel.glitch.me">
+          [this_project_url]https/swamp-fennel.glitch.me/
+        </p>
 
         <h3>Will Redirect to:</h3>
-        <p>https://forum.freecodecamp.com</p>
+        <p>https://swamp-fennel.glitch.me/</p>
       </div>
       <div class="footer">
         <p>
-          by <a href="http://www.freecodecamp.com">freeCodeCamp</a>
+          by mariapesma.  2018, Project for Free code camp. 
         </p>
       </div>
    </body>
